@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+  margin: 5px;
+  padding: 5px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003366;
+  color: white;
+  padding: 12px 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.chip-logo {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.site-title {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Orbitron', sans-serif; 
+  letter-spacing: 1px;
+  color: #00ffff;
+}
+
+.nav-right .quote {
+  font-size: 14px;
+  font-style: italic;
+  color: #cce6ff;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1;
+}
+
+.small {
+  font-size: 24px;
+  color: #333;
+}
+
+.heading {
+  font-size: 36px;
+  color: #004080;
+  margin-top: 10px;
+}
+
+.image {
+  flex: 1;
+  text-align: right;
+}
+
+.image img {
+  max-width: 500px;
+  border-radius: 18px;
+  transform: translate(-40px, 20px); 
+  transition: transform 0.4s ease-in-out;
+}
+.image img:hover {
+  transform: translate(-60px, 30px);
+}
+.explore-btn {
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 18px 24px;
+  font-size: 18px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #005f99;
+}

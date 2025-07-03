@@ -25,7 +25,6 @@ export const createUser = (req, res) => {
   res.status(201).json({ message: `User ${name} added successfully`, user: users[id] });
 };
 
-
 export const getUser = (req, res) => {
   const { id } = req.params;
 

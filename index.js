@@ -9,6 +9,8 @@ app.use(bodyParser.json());
 
 app.use('/users', usersRoutes);
 
+app.use(express.static('public'));
+
 app.get('/', (req, res) => res.send('👋 Hello from the Homepage!'));
 
 app.listen(PORT, () => console.log(`🚀 Server is running on: http://localhost:${PORT}`));
